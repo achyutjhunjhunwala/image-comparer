@@ -46,7 +46,6 @@ docker run --shm-size=1gb -p 8080:8080 -h 127.0.0.1 -d  image-comparer
 #### Using Postman To Test
 Via Postman -
 
-1 URL, multiple URL can be added to array. Only GLASS URLs
 ```
 url - http://localhost:8080/queue-markets
 method - POST
