@@ -47,7 +47,7 @@ docker run --shm-size=1gb -p 8080:8080 -h 127.0.0.1 -d  image-comparer
 Via Postman -
 
 ```
-url - http://localhost:8080/queue-markets
+url - http://localhost:8080/compare-images
 method - POST
 Payload - {"imgUrl1": "image url", "imgUrl2": "image URL"}
 Type - RAW (Application/JSON)
