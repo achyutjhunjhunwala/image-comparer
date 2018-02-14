@@ -59,8 +59,6 @@ RUN npm install -g pm2
 
 RUN npm run build
 
-USER nobody
-
 EXPOSE 8080
 
 CMD ["pm2", "start", "processes.json", "--no-daemon"]
