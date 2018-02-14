@@ -55,10 +55,12 @@ COPY . /usr/src/app/
 
 RUN npm install
 
+RUN npm install -g pm2
+
 RUN npm run build
 
 USER nobody
 
 EXPOSE 8080
 
-CMD [ "node", "dist/index.js" ]
+CMD ["pm2", "start", "processes.json", "--no-daemon"]
