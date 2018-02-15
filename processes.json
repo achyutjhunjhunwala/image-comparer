@@ -6,7 +6,7 @@
       "merge_logs": true,
       "max_restarts": 20,
       "instances": 10,
-      "max_memory_restart": "256M",
+      "max_memory_restart": "512M",
       "env": {
         "PORT": 8080,
         "NODE_ENV": "production"
