@@ -5,7 +5,8 @@
       "script": "dist/index.js",
       "merge_logs": true,
       "max_restarts": 20,
-      "instances": 12,
+      "exec_mode" : "cluster",
+      "instances": "max",
       "max_memory_restart": "1G",
       "env": {
         "PORT": 8080,
