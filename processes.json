@@ -6,7 +6,7 @@
       "merge_logs": true,
       "max_restarts": 20,
       "exec_mode" : "cluster",
-      "instances": "max",
+      "instances": "12",
       "max_memory_restart": "1G",
       "env": {
         "PORT": 8080,
