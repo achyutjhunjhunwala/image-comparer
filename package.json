@@ -38,7 +38,7 @@
     "express": "^4.15.4",
     "express-validator": "^4.3.0",
     "fs": "0.0.1-security",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "morgan": "^1.8.2",
     "node-fetch": "^2.0.0",
     "node-resemble-v2": "^1.0.0",
