@@ -34,8 +34,8 @@
   },
   "dependencies": {
     "aws-sdk": "^2.194.0",
-    "body-parser": "^1.18.2",
-    "express": "^4.15.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "express-validator": "^4.3.0",
     "fs": "0.0.1-security",
     "isomorphic-fetch": "^2.2.1",
