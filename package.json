@@ -30,7 +30,7 @@
     "eslint-plugin-jest": "^21.27.2",
     "husky": "^0.14.3",
     "jest": "^21.0.2",
-    "nodemon": "^1.12.0"
+    "nodemon": "^2.0.22"
   },
   "dependencies": {
     "aws-sdk": "^2.194.0",
