@@ -1,6 +1,6 @@
 # Dockerfile
 # using debian:jessie for it's smaller size over ubuntu
-FROM debian:jessie
+FROM debian:bullseye
 
 MAINTAINER Jhunjhunwala, Achyut <achyut.jhunjhunwala@gmail.com>
 
